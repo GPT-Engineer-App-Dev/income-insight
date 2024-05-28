@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Navigation Bar */}
-      <Box as="nav" bg="gray.800" color="white" py={4}>
+      <Box as="nav" bg="#fff1e5" color="black" py={4}>
         <Flex justify="space-between" align="center" maxW="container.xl" mx="auto" px={4}>
           <Heading as="h1" size="lg">Financial Times</Heading>
           <HStack spacing={8}>
@@ -19,7 +19,7 @@ const Index = () => {
       </Box>
 
       {/* Main Headline Section */}
-      <Box as="section" bg="gray.100" py={10}>
+      <Box as="section" bg="#fff1e5" py={10}>
         <Container maxW="container.md">
           <Heading as="h2" size="2xl" mb={4}>Main Headline: Breaking News</Heading>
           <Text fontSize="lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</Text>
@@ -48,7 +48,7 @@ const Index = () => {
       </Box>
 
       {/* Footer */}
-      <Box as="footer" bg="gray.800" color="white" py={6}>
+      <Box as="footer" bg="#fff1e5" color="black" py={6}>
         <Container maxW="container.md">
           <VStack spacing={4}>
             <Text>Contact Us: contact@financialtimes.com</Text>
